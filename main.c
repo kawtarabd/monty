@@ -3,8 +3,8 @@ stack_t *head = NULL;
 
 /**
  * main - entry point
- * @argc: arguments count
- * @argv: list of arguments
+ * @argc: the arguments for count
+ * @argv: the list of arguments
  * Return: always 0
  */
 
@@ -21,9 +21,9 @@ int main(int argc, char *argv[])
 }
 
 /**
- * create_node - Creates a node.
- * @n: Number to go inside the node.
- * Return: Upon sucess a pointer to the node. Otherwise NULL.
+ * create_node - for Creates a node.
+ * @n: Number for going inside the node.
+ * Return: Upon sucess a pointer to the node. Or NULL.
  */
 stack_t *create_node(int n)
 {
